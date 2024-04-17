@@ -1,18 +1,16 @@
-void print_char(char i);
-int hh
+void print_char(char HowMany);
 
-void my_print_n_ascii(int 5) {
-    int i;
-    for (i = 33; i < 126; i++)
-    {
-        print_char((char)i);
+void my_print_n_ascii(int HowMany) {
+    for (HowMany = 33; HowMany < 37; HowMany++)
+        {
+        print_char((char)HowMany);
         }
 }
     
-    
+
 int main(void)
 {
-    my_print_ascii();
+    my_print_n_ascii(5);
 return 0; 
 }
 
