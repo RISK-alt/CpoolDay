@@ -1,8 +1,9 @@
+void print_char(char i);
+
 void my_print_ascii(void) {
-    for (size_t i = 0; i < count; i++)
+    int i;
+    for (i = 1; i < 127; i++)
     {
-        void print_char(char xxx)
+        print_char((char)i);
     }
-    
-    
 }

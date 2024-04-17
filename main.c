@@ -1,10 +1,11 @@
+void print_char(char i);
+
 void my_print_ascii(void) {
-    for (size_t i = 0; i < count; i++)
+    int i;
+    for (i = 1; i < 127; i++)
     {
-        void print_char(char xxx)
+        print_char((char)i);
     }
-    
-    
 }
 
 
@@ -22,4 +23,3 @@ return 0;
 // print_char(char c);
 // print_number(int number);
 
-$> !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghij klmnopqrstuvwxyz { | } ~
