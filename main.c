@@ -3,7 +3,7 @@ void print_char(char i);
 void my_print_revert(char *toRevert) {
 int lecrabe = 0; 
 
-    while (toRevert[lecrabe] != '\0') ; {
+    while (toRevert[lecrabe] != '\0') {
     lecrabe++;
 }
 

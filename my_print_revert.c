@@ -1,10 +1,10 @@
 void print_char(char i);
 
 void my_print_revert(char *toRevert) {
-int lecrabe = 0; 
+int encrabe = 0; 
 
-    while (toRevert[lecrabe] != '\0') ; {
-    lecrabe++;
+    while (toRevert[encrabe] != '\0') {
+    encrabe++;
 }
 
     for (int i = lecrabe; i >= 0; i--)
