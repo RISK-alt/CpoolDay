@@ -7,7 +7,7 @@ int encrabe = 0;
     encrabe++;
 }
 
-    for (int i = lecrabe; i >= 0; i--)
+    for (int i = encrabe; i >= 0; i--)
         {      
         print_char(toRevert[i]);
         }
