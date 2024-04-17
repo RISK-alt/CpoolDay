@@ -1,9 +1,10 @@
-void print_char(char HowMany);
+void print_char(char i);
 
 void my_print_n_ascii(int HowMany) {
-    for (HowMany = 33; HowMany < 37; HowMany++)
-        {
-        print_char((char)HowMany);
+    
+    for (int i = 33; i < 33 + HowMany; i++)
+        {      
+        print_char((char)i);
         }
 }
     
