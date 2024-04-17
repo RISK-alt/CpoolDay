@@ -1,17 +1,22 @@
 void print_char(char i);
 
-void my_print_n_ascii(int HowMany) {
-    
-    for (int i = 33; i < 33 + HowMany; i++)
+void my_print_revert(char *toRevert) {
+int lecrabe = 0; 
+
+    while (toRevert[lecrabe] != '\0') ; {
+    lecrabe++;
+}
+
+    for (int i = lecrabe; i >= 0; i--)
         {      
-        print_char((char)i);
+        print_char(toRevert[i]);
         }
 }
     
 
 int main(void)
 {
-    my_print_n_ascii(5);
+    my_print_revert("coucou");
 return 0; 
 }
 
